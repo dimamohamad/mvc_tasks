@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+
+<h1>Contact Us</h1>
+<p>We'd love to hear from you. Reach out to us for any inquiries.</p>
+<form action="/Home/Contact" method="post">
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+    </div><br />
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+    </div><br />
+    <div>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+    </div><br/>
+    <button type="submit">Send</button>
+</form>
+<p>Alternatively, you can reach us at:</p>
+<p>Email: contact@babysitterservice.com</p>
+<p>Phone: (123) 456-7890</p>
