@@ -1,0 +1,316 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|c:\\users\\d\\desktop\\new folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\views\\teachers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|solutionrelative:18-9-2024\\views\\teachers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|c:\\users\\d\\desktop\\new folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|solutionrelative:18-9-2024\\controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|c:\\users\\d\\desktop\\new folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\views\\studentdetails\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|solutionrelative:18-9-2024\\views\\studentdetails\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|c:\\users\\d\\desktop\\new folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\views\\courses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|solutionrelative:18-9-2024\\views\\courses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|c:\\users\\d\\desktop\\new folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|solutionrelative:18-9-2024\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|c:\\users\\d\\desktop\\new folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|solutionrelative:18-9-2024\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|c:\\users\\d\\desktop\\new folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\controllers\\studentdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|solutionrelative:18-9-2024\\controllers\\studentdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|c:\\users\\d\\desktop\\new folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|solutionrelative:18-9-2024\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|c:\\users\\d\\desktop\\new folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\migrations\\202409181708178_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|solutionrelative:18-9-2024\\migrations\\202409181708178_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|c:\\users\\d\\desktop\\new folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|solutionrelative:18-9-2024\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|c:\\users\\d\\desktop\\new folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\models\\schoolcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|solutionrelative:18-9-2024\\models\\schoolcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|c:\\users\\d\\desktop\\new folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|solutionrelative:18-9-2024\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|c:\\users\\d\\desktop\\new folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|solutionrelative:18-9-2024\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|c:\\users\\d\\desktop\\new folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\models\\studentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|solutionrelative:18-9-2024\\models\\studentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|c:\\users\\d\\desktop\\new folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|solutionrelative:18-9-2024\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|c:\\users\\d\\desktop\\new folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|solutionrelative:18-9-2024\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|c:\\users\\d\\desktop\\new folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{B314078C-70CB-441C-B262-6E78EA8B8F49}|18-9-2024\\18-9-2024.csproj|solutionrelative:18-9-2024\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\Views\\Teachers\\Index.cshtml",
+              "RelativeDocumentMoniker": "18-9-2024\\Views\\Teachers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\Views\\Teachers\\Index.cshtml",
+              "RelativeToolTip": "18-9-2024\\Views\\Teachers\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-18T17:13:22.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\Views\\StudentDetails\\Index.cshtml",
+              "RelativeDocumentMoniker": "18-9-2024\\Views\\StudentDetails\\Index.cshtml",
+              "ToolTip": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\Views\\StudentDetails\\Index.cshtml",
+              "RelativeToolTip": "18-9-2024\\Views\\StudentDetails\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-18T17:13:18.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\Views\\Courses\\Index.cshtml",
+              "RelativeDocumentMoniker": "18-9-2024\\Views\\Courses\\Index.cshtml",
+              "ToolTip": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\Views\\Courses\\Index.cshtml",
+              "RelativeToolTip": "18-9-2024\\Views\\Courses\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-18T17:12:48.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "18-9-2024\\Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "18-9-2024\\Controllers\\CoursesController.cs",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T17:10:10.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "18-9-2024\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "18-9-2024\\Controllers\\StudentsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T17:09:52.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentDetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\Controllers\\StudentDetailsController.cs",
+              "RelativeDocumentMoniker": "18-9-2024\\Controllers\\StudentDetailsController.cs",
+              "ToolTip": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\Controllers\\StudentDetailsController.cs",
+              "RelativeToolTip": "18-9-2024\\Controllers\\StudentDetailsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T17:09:35.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TeachersController.cs",
+              "DocumentMoniker": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\Controllers\\TeachersController.cs",
+              "RelativeDocumentMoniker": "18-9-2024\\Controllers\\TeachersController.cs",
+              "ToolTip": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\Controllers\\TeachersController.cs",
+              "RelativeToolTip": "18-9-2024\\Controllers\\TeachersController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBMAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T17:09:18.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "202409181708178_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\Migrations\\202409181708178_InitialCreate.cs",
+              "RelativeDocumentMoniker": "18-9-2024\\Migrations\\202409181708178_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\Migrations\\202409181708178_InitialCreate.cs",
+              "RelativeToolTip": "18-9-2024\\Migrations\\202409181708178_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T17:08:32.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "18-9-2024\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "18-9-2024\\Migrations\\Configuration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T17:05:56.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StudentDetails.cs",
+              "DocumentMoniker": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\Models\\StudentDetails.cs",
+              "RelativeDocumentMoniker": "18-9-2024\\Models\\StudentDetails.cs",
+              "ToolTip": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\Models\\StudentDetails.cs",
+              "RelativeToolTip": "18-9-2024\\Models\\StudentDetails.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T08:15:00.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "18-9-2024\\Models\\Course.cs",
+              "ToolTip": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\Models\\Course.cs",
+              "RelativeToolTip": "18-9-2024\\Models\\Course.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAgwBYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T08:27:44.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "18-9-2024\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\Models\\Student.cs",
+              "RelativeToolTip": "18-9-2024\\Models\\Student.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T08:14:21.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "18-9-2024\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "18-9-2024\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T14:28:30.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\Models\\Teacher.cs",
+              "RelativeDocumentMoniker": "18-9-2024\\Models\\Teacher.cs",
+              "ToolTip": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\Models\\Teacher.cs",
+              "RelativeToolTip": "18-9-2024\\Models\\Teacher.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T08:27:00.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SchoolContext.cs",
+              "DocumentMoniker": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\Models\\SchoolContext.cs",
+              "RelativeDocumentMoniker": "18-9-2024\\Models\\SchoolContext.cs",
+              "ToolTip": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\Models\\SchoolContext.cs",
+              "RelativeToolTip": "18-9-2024\\Models\\SchoolContext.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAkwBsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T08:18:07.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\Web.config",
+              "RelativeDocumentMoniker": "18-9-2024\\Web.config",
+              "ToolTip": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\Web.config",
+              "RelativeToolTip": "18-9-2024\\Web.config",
+              "ViewState": "AQIAADMAAAAAAAAAAAAiwEQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-18T08:23:14.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "favicon.ico - Icon [16x16, 32 bit, BMP]",
+              "DocumentMoniker": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\favicon.ico",
+              "RelativeDocumentMoniker": "18-9-2024\\favicon.ico",
+              "ToolTip": "C:\\Users\\d\\Desktop\\New folder (6)\\mvc_tasks\\18-9-2024\\18-9-2024\\favicon.ico - Icon [16x16, 32 bit, BMP]",
+              "RelativeToolTip": "18-9-2024\\favicon.ico - Icon [16x16, 32 bit, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2024-09-18T13:12:57.531Z",
+              "EditorCaption": " - Icon [16x16, 32 bit, BMP]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
