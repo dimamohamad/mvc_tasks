@@ -1,0 +1,110 @@
+﻿@model miniProject.Models.Tasks
+
+@{
+    ViewBag.Title = "Task Details";
+}
+
+<div class="container">
+    <h2>Task Details</h2>
+    <hr />
+    <div class="details-section">
+        <dl class="row">
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.Class.ClassName)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.Class.ClassName)
+            </dd>
+
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.TaskDescription)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.TaskDescription)
+            </dd>
+
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.subDate)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.subDate)
+            </dd>
+        </dl>
+    </div>
+
+    <div class="form-group row">
+        <div class="col-md-12">
+            @Html.ActionLink("Edit", "Edit", new { id = Model.Id }, new { @class = "btn btn-primary" })
+            @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-secondary ml-2" })
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        font-family: 'Lato', sans-serif;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: 40px auto;
+        padding: 15px;
+        background-color: #ffffff;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+
+    h2 {
+        font-size: 28px;
+        font-weight: 600;
+        color: #2c3e50;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .details-section {
+        margin-top: 20px;
+    }
+
+    dt {
+        font-weight: 500;
+        color: #34495e;
+    }
+
+    dd {
+        margin-bottom: 15px;
+    }
+
+    /* Button styles */
+    .btn-primary {
+        background-color: #3498db;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+
+        .btn-primary:hover {
+            background-color: #2980b9;
+        }
+
+    .btn-secondary {
+        background-color: #95a5a6;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+        .btn-secondary:hover {
+            background-color: #7f8c8d;
+        }
+
+    .ml-2 {
+        margin-left: 10px;
+    }
+</style>

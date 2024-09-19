@@ -60,33 +60,93 @@ namespace _18_9_2024.Controllers
         }
 
         // GET: Teachers/Edit/5
-        public ActionResult Edit(int? id)
+        //public ActionResult Edit(int? id)
+        //{
+        //    if (id == null)
+        //    {
+        //        return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+        //    }
+        //    Teacher teacher = db.Teachers.Find(id);
+        //    if (teacher == null)
+        //    {
+        //        return HttpNotFound();
+        //    }
+        //    return View(teacher);
+        //}
+
+public ActionResult Edit(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Teacher teacher = db.Teachers.Find(id);
+
+            // Fetch the teacher with their courses using Include
+            Teacher teacher = db.Teachers.Include(t => t.Courses).FirstOrDefault(t => t.ID == id);
+
             if (teacher == null)
             {
                 return HttpNotFound();
             }
+
+            // Pass a list of courses to the view if you want to show all available courses
+            ViewBag.Courses = db.Courses.ToList();
+
             return View(teacher);
         }
-
         // POST: Teachers/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public ActionResult Edit([Bind(Include = "ID,TeacherName,age")] Teacher teacher)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        db.Entry(teacher).State = EntityState.Modified;
+        //        db.SaveChanges();
+        //        return RedirectToAction("Index");
+        //    }
+        //    return View(teacher);
+        //}
+        // POST: Teachers/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ID,TeacherName,age")] Teacher teacher)
+        public ActionResult Edit([Bind(Include = "ID,TeacherName,Age")] Teacher teacher, int[] selectedCourses)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(teacher).State = EntityState.Modified;
-                db.SaveChanges();
-                return RedirectToAction("Index");
+                // Fetch the existing teacher with courses
+                var teacherToUpdate = db.Teachers.Include(t => t.Courses).FirstOrDefault(t => t.ID == teacher.ID);
+
+                if (teacherToUpdate != null)
+                {
+                    // Update basic teacher details
+                    teacherToUpdate.TeacherName = teacher.TeacherName;
+                    teacherToUpdate.age = teacher.age;
+
+                    // Update the courses associated with the teacher
+                    teacherToUpdate.Courses.Clear(); // Clear existing courses
+                    if (selectedCourses != null)
+                    {
+                        foreach (var courseId in selectedCourses)
+                        {
+                            var course = db.Courses.Find(courseId);
+                            if (course != null)
+                            {
+                                teacherToUpdate.Courses.Add(course);
+                            }
+                        }
+                    }
+
+                    db.Entry(teacherToUpdate).State = EntityState.Modified;
+                    db.SaveChanges();
+                    return RedirectToAction("Index");
+                }
             }
+
+            // If something fails, reload the course list
+            ViewBag.Courses = db.Courses.ToList();
             return View(teacher);
         }
 

@@ -1,0 +1,111 @@
+﻿@model IEnumerable<miniProject.Models.Tasks>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="container">
+    <h2>Tasks List</h2>
+
+    <p>
+        @Html.ActionLink("Create New", "Create", null, new { @class = "btn-create" })
+    </p>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Class Name</th>
+                <th>Task Description</th>
+                <th>Submission Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Class.ClassName)</td>
+                    <td>@Html.DisplayFor(modelItem => item.TaskDescription)</td>
+                    <td>@Html.DisplayFor(modelItem => item.subDate)</td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<style>
+    body {
+        font-family: 'Lato', sans-serif;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: 40px auto;
+        padding: 15px;
+        background-color: #ffffff;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+
+    h2 {
+        font-size: 28px;
+        font-weight: 600;
+        color: #2c3e50;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+
+        .table th,
+        .table td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        .table th {
+            background-color: #3498db;
+            color: white;
+            text-transform: uppercase;
+        }
+
+        .table td {
+            background-color: #f9f9f9;
+        }
+
+    .btn-create {
+        display: inline-block;
+        background-color: #3498db;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500;
+        transition: background-color 0.3s;
+    }
+
+        .btn-create:hover {
+            background-color: #2980b9;
+        }
+
+    .table td a {
+        color: #3498db;
+        text-decoration: none;
+        margin: 0 5px;
+    }
+
+        .table td a:hover {
+            text-decoration: underline;
+        }
+</style>

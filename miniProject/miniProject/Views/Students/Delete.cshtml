@@ -1,0 +1,156 @@
+﻿@model miniProject.Models.Student
+
+@{
+    ViewBag.Title = "Delete Student";
+}
+
+<div class="container">
+    <h2>Delete Student</h2>
+
+    <h3>Are you sure you want to delete this student?</h3>
+    <div>
+        <h4>Student Details</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Class.ClassName)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Class.ClassName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.StudentName)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.StudentName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Age)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Age)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Email)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Email)
+            </dd>
+        </dl>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <input type="button" id="deleteButton" value="Delete" class="btn btn-danger" />
+                @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-secondary ml-2" })
+            </div>
+        }
+    </div>
+</div>
+
+<!-- Include SweetAlert -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script type="text/javascript">
+    document.getElementById('deleteButton').addEventListener('click', function () {
+        Swal.fire({
+            title: 'Are you sure?',
+            text: "This student will be permanently deleted.",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#d33',
+            cancelButtonColor: '#3085d6',
+            confirmButtonText: 'Yes, delete it!',
+            cancelButtonText: 'Cancel'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                // Submit the form if the user confirms deletion
+                document.forms[0].submit();
+            }
+        });
+    });
+</script>
+
+<style>
+    body {
+        font-family: 'Lato', sans-serif;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: 40px auto;
+        padding: 15px;
+        background-color: #ffffff;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+
+    h2 {
+        font-size: 28px;
+        font-weight: 600;
+        color: #2c3e50;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    h3 {
+        color: #e74c3c;
+        text-align: center;
+    }
+
+    dl {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+    }
+
+    dt {
+        font-weight: 600;
+        flex-basis: 20%;
+        color: #2c3e50;
+    }
+
+    dd {
+        flex-basis: 75%;
+        margin-left: 0;
+        color: #34495e;
+    }
+
+    .form-actions {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .btn-danger {
+        background-color: #e74c3c;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .btn-secondary {
+        background-color: #95a5a6;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+        .btn-secondary:hover {
+            background-color: #7f8c8d;
+        }
+
+    .ml-2 {
+        margin-left: 10px;
+    }
+</style>
